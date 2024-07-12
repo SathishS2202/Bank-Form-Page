@@ -1,0 +1,89 @@
+body{
+    background-color:thistle;
+}
+.container{
+    border: 2px solid;
+    height: 1000px;
+    width: 1000px;
+    background-color:rgb(184, 195, 199);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 30px;
+    font-size: medium;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+img{
+    margin-left: 100px;
+}
+h1{
+    margin-top: 20px;
+}
+.header{
+    padding: 5px;
+    background-color: rgb(1, 77, 1);
+    width: 1000px;
+    margin-top: 20px;
+    margin-left:-15px ;
+    color: white;
+}
+label{
+    margin-top: -1px;
+}
+div{
+    margin-top: 30px;
+}
+hr{
+    margin-top: 25px;
+}
+input{
+    background-color:rgb(184, 195, 199);
+    border-radius: 2px;
+
+}
+hr{
+    border-top: 2px solid ;
+    color: black !important ;;
+}
+.pagination{
+     margin: 10px 200px 0 170px;
+     border: none;
+}
+.col-3{
+    width: 275px;
+}
+input {
+    background-color: rgb(197, 214, 208) !important;
+    border-radius: 2px;
+    border: 1px solid black !important; 
+}
+.pagination .page-link {
+    border: none; 
+    background: none; 
+    color: black; 
+    font-size: 24px; 
+}
+
+.pagination .page-item.disabled .page-link,
+.pagination .page-item .page-link {
+    pointer-events: none; 
+}
+.row mb-3{
+    margin-top: 5px;
+}
+
+.pagination .page-item:not(.disabled) .page-link {
+    pointer-events: auto; 
+}
+
+.pagination .page-item.disabled .page-link,
+.pagination .page-item.active .page-link {
+    color: gray; 
+}
+
+.pagination .page-item:not(.disabled):hover .page-link {
+    color: darkgray; 
+}
